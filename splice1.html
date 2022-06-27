@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Splice demo</title>
+<script type="text/javascript">
+function splice()
+{
+var colors;
+colors=["Red","White","Green"];
+var removed;
+removed=colors.splice(1,0,"pink","yellow");
+document.write(colors);
+document.write(removed);
+document.write(removed.length);
+}
+</script>
+</head>
+<body>
+<input type="button" onclick="splice()" value="Splice"/>
+</body>
+</html>
