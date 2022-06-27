@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+<title>Adding or deleting Elements</title>
+
+function splice1()
+{
+  var colors;
+  colors=["Red","Green","Blue"];
+  var removed;
+  removed=colors.splice(0,1);
+  document.write(colors);
+  document.write(removed);
+  document.write(removed.length);
+}
+</script>
+</head>
+<body>
+<input type="button" onclick="splice1()" value="Splice1"/>
+</body>
+</html>
+
+
